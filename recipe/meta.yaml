@@ -1,13 +1,13 @@
 {% set name = "joserfc" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/joserfc-{{ version }}.tar.gz
-  sha256: 298a9820c76576f8ca63375d1851cc092f3f225508305c7a36c4632cec38f7bc
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/joserfc-{{ version }}.tar.gz
+  sha256: c4507be82d681245f461710ffca1fa809fd288f49bc3ce4dba0b1c591700a686
 
 build:
   noarch: python
