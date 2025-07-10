@@ -33,7 +33,7 @@ test:
     - python {{ python_min }}
 
 about:
-  home: https://jose.authlib.org/en/dev/
+  home: https://jose.authlib.org/en/
   summary: The ultimate Python library for JOSE RFCs, including JWS, JWE, JWK, JWA, JWT
   dev_url: https://github.com/authlib/joserfc
   license: BSD-3-Clause
