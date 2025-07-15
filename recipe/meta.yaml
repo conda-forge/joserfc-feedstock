@@ -1,5 +1,5 @@
 {% set name = "joserfc" %}
-{% set version = "1.2.1" %}
+{% set version = "1.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/joserfc-{{ version }}.tar.gz
-  sha256: 466a75dc0af9c6711d2a93f38e91c5d4920ec77059063325c251913da3e83569
+  sha256: 0d2a84feecef96168635fd9bf288363fc75b4afef3d99691f77833c8e025d200
 
 build:
   noarch: python
