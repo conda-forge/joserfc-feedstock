@@ -31,7 +31,9 @@ tests:
       imports:
         - joserfc
       pip_check: true
-      python_version: ${{ python_min }}
+      python_version:
+        - ${{ python_min }}
+        - "*"
 
 about:
   summary: The ultimate Python library for JOSE RFCs, including JWS, JWE, JWK, JWA, JWT
