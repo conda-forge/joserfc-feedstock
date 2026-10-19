@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: joserfc
-  version: "1.7.6"
+  version: "1.7.7"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/${{ name[0] }}/${{ name }}/joserfc-${{ version }}.tar.gz
-  sha256: fb1cf6d2977318bef976c2ed2ef2167cc5f8ade8fc96f034e38f7abd656907c4
+  sha256: 471d0fd12a5a0d1c0942de280f39efe6f597878315033270b504d4d006d25510
 
 build:
   number: 0
